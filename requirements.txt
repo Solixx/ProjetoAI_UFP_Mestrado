@@ -1,0 +1,12 @@
+requests
+numpy
+sentence_transformers
+transformers
+scipy
+torch
+peft
+datasets
+PyYAML
+jsonlines
+python-dotenv
+accelerate
