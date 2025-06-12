@@ -7,7 +7,7 @@ from scipy.spatial.distance import cosine
 import torch
 from peft import PeftModel
 
-url = "https://raw.githubusercontent.com/BrunoSilva077/dataset/main/ufp-courses-dataset.jsonl"
+url = "https://raw.githubusercontent.com/Solixx/ProjetoAI_UFP_Mestrado/main/ufp-courses-dataset.jsonl"
 response = requests.get(url)
 data = [json.loads(line) for line in response.text.splitlines()]
 

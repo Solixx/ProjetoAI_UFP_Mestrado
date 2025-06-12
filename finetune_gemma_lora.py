@@ -76,7 +76,7 @@ def create_finetuning_dataset(tokenizer, data_list, max_seq_length=512):
 def main():
     # Model Configuration
     model_name = "google/gemma-2-2b-it"
-    dataset_url = "https://raw.githubusercontent.com/BrunoSilva077/dataset/main/ufp-courses-dataset.jsonl"
+    dataset_url = "https://raw.githubusercontent.com/Solixx/ProjetoAI_UFP_Mestrado/main/ufp-courses-dataset.jsonl"
     output_dir = "./gemma2-finetuned-lora"
     lora_r = 16 
     lora_alpha = 32 
